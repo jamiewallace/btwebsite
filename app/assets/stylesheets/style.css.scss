@@ -1,0 +1,188 @@
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* site wide */
+
+
+
+.container.custom {
+  margin: 10px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Metrophobic', sans-serif;
+  font-size: 16px;
+}
+
+nav.navbar.navbar-default {
+  background-color: rgb(3,99,34);
+  border: 0px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+  padding-top: 5px;
+  font-size: 15px;
+  a:hover {
+    color: rgb(193,245,83);
+  }
+  a {
+    color: white;
+  }
+}
+
+.navbar-brand {
+  a {
+    color: white;
+    font-size: 30px;
+  }
+  a:hover {
+    color: rgb(193,245,83);
+  }
+  a:link {
+    text-decoration: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+img.map {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+// body {
+//   background-image: url('/assets/BTfromvegpatch.jpg'), url('/assets/snowybt.jpg');
+//   background-size: 100%;
+//   // background-repeat:no-repeat;
+//   background-position: left top, left bottom;
+// }
+
+
+
+
+
+// /* navbar */
+
+// .navbar-brand {
+//   a {
+//     color: white;
+//     font-size: 20px;
+//     font-weight: bold;
+//   }
+//   a:hover {
+//     color: orange;
+//   }
+//   a:link {
+//     text-decoration: none;
+//   }
+// }
+
+// .form-control {
+//   width: 270px;
+// }
+
+
+
+
+
+// .nav.navbar-left {
+//   li {
+//     float: left;
+//   }
+//   a:hover {
+//     color: orange;
+//     background-color: none;
+//   }
+//   a:link {
+//     text-decoration: none;
+//   }
+// }
+
+// .nav.navbar-right {
+//   li {
+//     float: left;
+//   } 
+
+//   li > a {
+//     color: white;
+//     padding: none;
+//     background-color: none;
+//   }
+ 
+//   li > a:hover {
+//     color: orange;
+//     background-color: none;
+//   }
+ 
+//   li > a:link {
+//     text-decoration: none;
+//     background-color: none;
+//   }
+// }
+
+// .navbar-right > li > a:hover, .navbar-right > li > a:focus {
+//   background-color: rgba(92,33,27, 0.1);
+// }
+
+// .navbar-left > li > a:hover, .navbar-right > li > a:focus {
+//   background-color: rgba(92,33,27, 0.1);
+// }
+
+// .nav.navbar-left {
+//   li {
+//     float: left;
+//   } 
+
+//   li > a {
+//     color: white;
+//     padding: none;
+//     background-color: none;
+//   }
+// }
+
+
+
+/* Welcome page */
+
+.col-md-5.welcome-h1-text {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.welcome-background-image {
+  background-image: url('homeimage.jpg');
+  width: 100%;
+}
+
+.welcome-search-box {
+
+  color: white;
+  background-color: rgba(92,33,27, 0.8);
+  padding: 10px;
+  margin: 30px 100px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(92,33,27, 0.8);
+  text-shadow: 2px 2px 2px black;
+  float: right;
+  h1 {
+    margin: 0 0 5px 0;
+    font-size: 40px;
+  }
+}
+
+.form-group.inner-row {
+  width: 275px;
+  display: inline-block;
+}
+
