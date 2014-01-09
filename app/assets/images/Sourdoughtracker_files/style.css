@@ -1,0 +1,415 @@
+/* site wide */
+/* line 5, ../../app/assets/stylesheets/style.css.scss */
+.main {
+  min-height: 600px;
+}
+
+/* line 9, ../../app/assets/stylesheets/style.css.scss */
+.btn.btn-primary {
+  background-color: orange;
+  border: orange;
+}
+
+/* line 15, ../../app/assets/stylesheets/style.css.scss */
+.contacts-list a {
+  background-color: none;
+}
+
+/* line 20, ../../app/assets/stylesheets/style.css.scss */
+a.inbox-conversation-link {
+  background-color: orange;
+}
+
+/* line 24, ../../app/assets/stylesheets/style.css.scss */
+.container {
+  margin: 10px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Metrophobic', sans-serif;
+}
+
+/* line 32, ../../app/assets/stylesheets/style.css.scss */
+body {
+  background: url("/assets/homeimage2.jpg");
+  background-size: cover;
+}
+
+/* line 37, ../../app/assets/stylesheets/style.css.scss */
+#customisation, h1, h2, h3 {
+  font-family: 'Metrophobic', sans-serif;
+}
+
+/* navbar */
+/* line 46, ../../app/assets/stylesheets/style.css.scss */
+.navbar-brand a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 51, ../../app/assets/stylesheets/style.css.scss */
+.navbar-brand a:hover {
+  color: orange;
+}
+/* line 54, ../../app/assets/stylesheets/style.css.scss */
+.navbar-brand a:link {
+  text-decoration: none;
+}
+
+/* line 59, ../../app/assets/stylesheets/style.css.scss */
+.form-control {
+  width: 270px;
+}
+
+/* line 63, ../../app/assets/stylesheets/style.css.scss */
+.radio {
+  color: white;
+}
+
+/* line 68, ../../app/assets/stylesheets/style.css.scss */
+nav.navbar.navbar-default {
+  background-color: rgba(133, 105, 76, 0.8);
+  border: 0px;
+}
+
+/* line 74, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-left li {
+  float: left;
+}
+/* line 77, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-left a:hover {
+  color: orange;
+  background-color: none;
+}
+/* line 81, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-left a:link {
+  text-decoration: none;
+}
+
+/* line 87, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-right li {
+  float: left;
+}
+/* line 91, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-right li > a {
+  color: white;
+  padding: none;
+  background-color: none;
+}
+/* line 97, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-right li > a:hover {
+  color: orange;
+  background-color: none;
+}
+/* line 102, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-right li > a:link {
+  text-decoration: none;
+  background-color: none;
+}
+
+/* line 108, ../../app/assets/stylesheets/style.css.scss */
+.navbar-right > li > a:hover, .navbar-right > li > a:focus {
+  background-color: rgba(133, 105, 76, 0.1);
+}
+
+/* line 112, ../../app/assets/stylesheets/style.css.scss */
+.navbar-left > li > a:hover, .navbar-right > li > a:focus {
+  background-color: rgba(133, 105, 76, 0.1);
+}
+
+/* line 117, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-left li {
+  float: left;
+}
+/* line 121, ../../app/assets/stylesheets/style.css.scss */
+.nav.navbar-left li > a {
+  color: white;
+  padding: none;
+  background-color: none;
+}
+
+/* Footer*/
+/* line 130, ../../app/assets/stylesheets/style.css.scss */
+.navbar-fixed-bottom {
+  margin-top: 20px;
+  position: relative;
+  clear: both;
+  border-radius: 5px;
+}
+
+/* Member profile page */
+/* line 140, ../../app/assets/stylesheets/style.css.scss */
+.col-md-8 {
+  position: relative;
+}
+
+/* line 150, ../../app/assets/stylesheets/style.css.scss */
+.box.avatar {
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+/* line 157, ../../app/assets/stylesheets/style.css.scss */
+.box.avatar img {
+  height: 200px;
+  width: 200px;
+}
+
+/* line 163, ../../app/assets/stylesheets/style.css.scss */
+.box.map {
+  height: 200px;
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 30px;
+  position: relative;
+  float: right;
+  display: inline-block;
+}
+
+/* line 173, ../../app/assets/stylesheets/style.css.scss */
+.box.description {
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+}
+
+/* line 183, ../../app/assets/stylesheets/style.css.scss */
+.col-md-3.avatar img {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+/* line 190, ../../app/assets/stylesheets/style.css.scss */
+.box-css {
+  background-color: rgba(232, 210, 189, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+/* line 196, ../../app/assets/stylesheets/style.css.scss */
+.box-css .col-md-4 a {
+  color: orange;
+}
+
+/* line 203, ../../app/assets/stylesheets/style.css.scss */
+.box-css.col-md-4 {
+  margin-bottom: 10px;
+}
+
+/* line 208, ../../app/assets/stylesheets/style.css.scss */
+img {
+  border-radius: 5px;
+}
+
+/* line 213, ../../app/assets/stylesheets/style.css.scss */
+.text-only {
+  padding: 15px;
+  color: white;
+}
+/* line 216, ../../app/assets/stylesheets/style.css.scss */
+.text-only a:hover {
+  color: orange;
+  background-color: none;
+}
+
+/* line 222, ../../app/assets/stylesheets/style.css.scss */
+.inner-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 227, ../../app/assets/stylesheets/style.css.scss */
+.box-css.col-md-3.messaging {
+  margin-left: 20px;
+}
+
+/* Welcome page */
+/* line 233, ../../app/assets/stylesheets/style.css.scss */
+.col-md-5.welcome-h1-text {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+/* line 240, ../../app/assets/stylesheets/style.css.scss */
+.welcome-background-image {
+  background-image: url("homeimage.jpg");
+  width: 100%;
+}
+
+/* line 245, ../../app/assets/stylesheets/style.css.scss */
+.welcome-text-box {
+  color: white;
+  background-color: rgba(133, 105, 76, 0.8);
+  padding: 10px;
+  margin: 30px 50px;
+  border-radius: 5px;
+  position: relative;
+  float: left;
+}
+/* line 254, ../../app/assets/stylesheets/style.css.scss */
+.welcome-text-box h1 {
+  margin: 0 0 5px 0;
+  font-size: 40px;
+}
+/* line 258, ../../app/assets/stylesheets/style.css.scss */
+.welcome-text-box a {
+  color: white;
+  text-decoration: none;
+}
+/* line 262, ../../app/assets/stylesheets/style.css.scss */
+.welcome-text-box a:hover {
+  color: orange;
+}
+/* line 265, ../../app/assets/stylesheets/style.css.scss */
+.welcome-text-box p {
+  font-size: 18px;
+}
+
+/* line 270, ../../app/assets/stylesheets/style.css.scss */
+.welcome-search-box {
+  color: white;
+  background-color: rgba(133, 105, 76, 0.8);
+  padding: 10px;
+  margin: 30px 50px;
+  border-radius: 5px;
+  float: right;
+  position: relative;
+}
+/* line 279, ../../app/assets/stylesheets/style.css.scss */
+.welcome-search-box h1 {
+  margin: 0 0 5px 0;
+  font-size: 40px;
+}
+
+/* line 285, ../../app/assets/stylesheets/style.css.scss */
+input#address {
+  width: 220px;
+  height: 35px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: 0px;
+  padding-left: 3px;
+}
+
+/* line 295, ../../app/assets/stylesheets/style.css.scss */
+input.home-search-button {
+  width: 75px;
+  height: 35px;
+  border: 0px;
+  padding: 0px;
+  margin-bottom: 8px;
+  margin-left: 4px;
+  font-size: 16px;
+  color: white;
+}
+
+/* line 310, ../../app/assets/stylesheets/style.css.scss */
+.form-group.inner-row {
+  width: 275px;
+  display: inline-block;
+}
+
+/* search results*/
+/* line 317, ../../app/assets/stylesheets/style.css.scss */
+.row.search-result {
+  padding: 10px;
+}
+
+/* Messages */
+/* line 323, ../../app/assets/stylesheets/style.css.scss */
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 329, ../../app/assets/stylesheets/style.css.scss */
+.contacts-list li {
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+/* line 334, ../../app/assets/stylesheets/style.css.scss */
+.contacts-list a {
+  display: block;
+  background: #ABC4CA;
+  color: #000;
+  padding: 0.5rem 1rem;
+}
+
+/* line 341, ../../app/assets/stylesheets/style.css.scss */
+.message-unit {
+  padding: 10px;
+  background: white;
+  margin: 0 0 20px 0;
+}
+
+/* line 347, ../../app/assets/stylesheets/style.css.scss */
+.message-body {
+  font-size: 18px;
+}
+
+/* line 351, ../../app/assets/stylesheets/style.css.scss */
+.message-from {
+  font-style: italic;
+}
+
+/* line 355, ../../app/assets/stylesheets/style.css.scss */
+#inline-message-compose {
+  background: #303233;
+  width: 420px;
+  height: 0;
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+}
+
+/* line 364, ../../app/assets/stylesheets/style.css.scss */
+#inline-message-compose .inner {
+  padding: 10px 15px;
+  position: relative;
+  border-top: 1px solid #cdcdcd;
+  border-left: 1px solid #cdcdcd;
+}
+
+/* line 371, ../../app/assets/stylesheets/style.css.scss */
+#inline-compose-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/* line 377, ../../app/assets/stylesheets/style.css.scss */
+#inline-compose-close:hover {
+  cursor: pointer;
+}
+
+/* line 382, ../../app/assets/stylesheets/style.css.scss */
+#map-canvas-global {
+  width: 800px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+/* line 388, ../../app/assets/stylesheets/style.css.scss */
+#map-canvas {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+/* line 394, ../../app/assets/stylesheets/style.css.scss */
+#map-results-canvas {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
